@@ -1,0 +1,34 @@
+/* Цвет основного текста #757575 */
+/* Цвет заголовка  #212121 */
+/* белый #FFFFFF */
+/* background наша команда #F5F4FA */
+/* Акцент #2196F3 */
+/* Цвет в футере мейла и телефона rgba(255, 255, 255, 0.6) */
+/* background #2F303A героя и подвала */
+/* черный в логотипе #000000  */
+:root {
+    --primary-text-color:#757575;
+    --title-text-color:#212121;
+    --accent-color:#2196F3;
+    --primary-white-color:#ffffff;
+  }
+/* button */
+.button{
+background-color: #F5F4FA;
+color: var(--title-text-color);
+}
+.button:hover,
+.button:focus{
+background-color: var(--accent-color);
+color: var(--primary-white-color);
+}
+/* Перечень работ студии */
+.studio-works .title{
+color: var(--title-text-color);
+background-color: var(--primary-white-color);
+
+}
+.studio-works-box{
+border: 1px solid #EEEEEE;
+box-sizing: border-box;
+}
